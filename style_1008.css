@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: Arial, "Microsoft JhengHei", sans-serif;
+  margin: 32px;
+  color: #17324d;
+}
+
+.parent {
+  width: 80%;
+  padding: 20px;
+  background: #dceef5;
+  border: 3px solid #286c86;
+}
+
+.child {
+  width: 50%;
+  margin-top: 10px;
+  padding: 15px;
+  background: #c3e0eb;
+  border: 2px dashed #1a4b5e;
+}
+
+.grandchild {
+  width: 50%;
+  margin-top: 10px;
+  padding: 10px;
+  background: #aad2e1;
+  border: 1px dotted #0d2a35;
+}
